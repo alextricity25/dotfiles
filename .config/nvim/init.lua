@@ -1,11 +1,10 @@
--- Map leader to space
 vim.g.mapleader = ' '
-
 local fn = vim.fn
 local execute = vim.api.nvim_command
 
 -- Sensible defaults
 require('settings')
+
 
 -- Auto install packer.nvim if not exists
 local install_path = fn.stdpath('data')..'/site/pack/packer/opt/packer.nvim'

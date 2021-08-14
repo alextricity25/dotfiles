@@ -31,13 +31,17 @@ return require('packer').startup(function()
   use { 'kyazdani42/nvim-tree.lua' }
 
   -- statusline lua
-  use { 'beauwilliams/statusline.lua' }
-  use { 'kosayoda/nvim-lightbulb' }
+  -- I actually do not like this plugin
+  -- use { 'beauwilliams/statusline.lua' }
+  -- use { 'kosayoda/nvim-lightbulb' }
 
   -- Toggle term 
   use {"akinsho/nvim-toggleterm.lua"}
 
   -- dev icons
   use {'ryanoasis/vim-devicons'}
+
+  -- vimspector
+  use {'puremourning/vimspector'}
 
 end)

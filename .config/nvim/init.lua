@@ -1,4 +1,3 @@
-vim.g.mapleader = ' '
 local fn = vim.fn
 local execute = vim.api.nvim_command
 
@@ -21,7 +20,7 @@ require('plugins')
 require('keymappings')
 
 -- Setup Lua language server using submodule
-require('lsp_lua')
+-- require('lsp_lua')
 
 -- Another option is to groups configuration in one folder
 require('config')
@@ -30,3 +29,4 @@ require('config')
 --require('config.colorscheme')  -- color scheme
 --require('config.completion')   -- completion
 --require('config.fugitive')     -- fugitive
+--

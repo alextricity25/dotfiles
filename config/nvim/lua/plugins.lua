@@ -44,4 +44,7 @@ return require('packer').startup(function()
   -- vimspector
   use {'puremourning/vimspector'}
 
+  -- bufferline
+  use {'akinsho/bufferline.nvim', requires = 'kyazdani42/nvim-web-devicons'}
+
 end)
